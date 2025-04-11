@@ -14,4 +14,4 @@ This repository contains Task 1 of my Web Development Internship at Prodigy Info
  - HTML
  -CSS
  JavaScript
- -Bootstrap
+ 
