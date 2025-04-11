@@ -11,7 +11,8 @@ This repository contains Task 1 of my Web Development Internship at Prodigy Info
  ** Work is in Progress. Final version will be Updated soon.
 
  ## Technologies Planned.
- - HTML
- -CSS
- JavaScript
+
+ - HTML,
+ -CSS,
+ - JavaScript
  
