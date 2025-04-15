@@ -1,19 +1,16 @@
 # PRODIGY_WD_01 - Interactive Navigation Menu
 
-## Task In Progress
+## Task Completed
 This repository contains Task 1 of my Web Development Internship at Prodigy Infotech.
 
 ### Task Brief :
 - Create  a fixed navigation menu
- - Change style on scroll 
- - Add hover effects
-
- ** Work is in Progress. Final version will be Updated soon.
+ -  Implemented style change on scroll 
+ - Added hover effects.
 
  ## Technologies Planned.
-<<<<<<< HEAD
 
- - HTML,
+ - HTML
  - CSS
  - JavaScript
  - Bootstrap
