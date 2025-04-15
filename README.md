@@ -18,8 +18,3 @@ This repository contains Task 1 of my Web Development Internship at Prodigy Info
  - JavaScript
  - Bootstrap
  
-=======
- - HTML,
- -CSS,
-- JavaScript
->>>>>>> a1d66f960c3e5fcc6391755c6012b4fa8c096336
