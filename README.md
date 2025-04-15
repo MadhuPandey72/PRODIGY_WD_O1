@@ -13,6 +13,7 @@ This repository contains Task 1 of my Web Development Internship at Prodigy Info
  ## Technologies Planned.
 
  - HTML,
- -CSS,
+ - CSS
  - JavaScript
+ - Bootstrap
  
