@@ -3,22 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive Navbar</title>
+    <title>Interactve Navbar Menu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+   
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav id ="navbar">
-        <ul>
-             <li> <a href="#">Home</a></li>
-             <li> <a href="#">About</a></li>
-             <li> <a href="#">Services</a></li>
-             <li> <a href="#">Contact</a></li>
-        </ul>
+   
+        <nav id="myNavbar" 
+        class="navbar  sticky fixed-top navbar-expand-lg "
+        data-bs-theme="dark">
+          <div class="container-fluid">
+          <a href="#" class="navbar-brand">Madhu Pandey</a>
+          <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">Projects</a> 
+            <a class="nav-link" href="#">Contact</a>
+            
+          </div>
+        </div>
+        <form class="d-flex" role="search">
+           <input class="form-control me-2" type="search" placeholder="search" aria-label="S" >
+          <button class="btn btn-outline-success" type="submit"> Search</button>
+        </form>
+        </div>
     </nav>
+    <h1 id="heading"> Welcome in Madhu's World</h1>
+    <div id="container">
 
-    <section class="content">
-        <h1> Scroll Down</h1>
-        <p></p>
-    </section>
+      <h2 id="h2">About Me</h2>
+      <p> Hello! I'm <strong> Madhu Pandey</strong>, a paasionate Frontend Developer intern at Prodigy Infotech.
+        This is my first step into the world of professional web development, and I'm truly excited to grow, learn , and create.
+      </p>
+      <h3 id="heading3"> What I Do</h3>
+      <p> I enjoy designing clean and responsive user interfaces using HTML, CSS, Bootstrap and JavaScript. My goal is to build websites that are both beautiful and functional.</p>
+      <h3 id="heading4"> Current Focus</h3>
+      <ul>
+        <li>
+          Masterring the core of frontend  development
+      </li>
+      <li> Learning Full Stack Developmet</li>
+      <li> Building real-world projects during this internships</li>
+    </ul>
+    <h3 id="skills">Skills </h3>
+      <p>: HTML | CSS | JavaScript | Bootstrap |Git & Github
+      </p>
+      <blockquote id="quote"> "The best way to predict the future is to create it." - Peter Drucker</blockquote>
+      <p> Thank you for visiting my world . Stayed tuned for more exciting updates as I continue to explore and grow  in the field of web development!</p>
+
+   
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="script.js"></script>
 </body>
 </html>
